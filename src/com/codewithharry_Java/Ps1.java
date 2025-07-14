@@ -1,3 +1,5 @@
+package com.codewithharry_Java;
+
 import java.util.Scanner;
 
 public class Ps1 {
