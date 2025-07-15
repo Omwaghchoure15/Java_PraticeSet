@@ -3,7 +3,14 @@ package com.Java.Datatype;
 public class Datatype {
     public static void main(String[] args) {
 
-        System.out.println("|-------------------------------------------|");
+        System.out.println("|-|-|-|-------------------------------------------|-|-|-|");
+        /*
+        Integer Number
+        Byte(1 Bytes)
+        Short(2 Bytes)
+        Int(4 Bytes)
+        Long(8 Bytes)
+        */
 
         System.out.println(" Byte Range ");
         System.out.println("|-----------------------------|");
@@ -39,7 +46,13 @@ public class Datatype {
         System.out.println(" Minimum Long value : " + Long.MIN_VALUE);
         System.out.println(" Maximum Long value : " + Long.MAX_VALUE);
 
-        System.out.println("|-------------------------------------------|");
+        System.out.println("|-|-|-|-------------------------------------------|-|-|-|");
+
+        /*
+        Decimal Number
+        Float( 4 Bytes)
+        Short( 8 Bytes)
+        */
 
         System.out.println(" Float Range");
         System.out.println("|-----------------------------|");
@@ -63,10 +76,28 @@ public class Datatype {
 
         System.out.println("|-|-|-|-------------------------------------------|-|-|-|");
 
+        /*
+        True/False
+        Boolean(1 Bite)
+        */
+        System.out.println("Boolean True/False");
+        System.out.println("|-----------------------------|");
+        boolean a = true;
+                a=false;
+        System.out.println(a);
+
+        System.out.println("|-|-|-|-------------------------------------------|-|-|-|");
+
+        /*
+        Character
+        char (2 bytes)
+         */
+
         System.out.println(" Character Range ");
         System.out.println("|-----------------------------|");
         System.out.println(" Minimum value : " + (int) Character.MIN_VALUE );
         System.out.println(" Maximum value : " + (int) Character.MAX_VALUE );
         System.out.println((char) 10084);
+
     }
 }
