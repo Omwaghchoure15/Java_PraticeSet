@@ -2,6 +2,7 @@ package com.Java.Datatype;
 
 public class string {
     public static void main(String[] args) {
+
         String message = " Hello World";
         String newMessage = message.replace("Hello","java");
         System.out.println(message);

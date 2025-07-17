@@ -75,7 +75,6 @@ public class Datatype {
         System.out.println(" Largest negative Double value : -" + Double.MAX_VALUE);
 
         System.out.println("|-|-|-|-------------------------------------------|-|-|-|");
-
         /*
         True/False
         Boolean(1 Bite)
@@ -92,7 +91,6 @@ public class Datatype {
         Character
         char (2 bytes)
          */
-
         System.out.println(" Character Range ");
         System.out.println("|-----------------------------|");
         System.out.println(" Minimum value : " + (int) Character.MIN_VALUE );
