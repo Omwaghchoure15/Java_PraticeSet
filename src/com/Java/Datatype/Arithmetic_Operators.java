@@ -47,5 +47,11 @@ public class Arithmetic_Operators {
         System.out.println("5 >> 1 = "+(a >> 1));
         System.out.println("Binary: "+Integer.toBinaryString(a >> 1));
 
+        System.out.println("|-|-|-|-------------------------------------------|-|-|-|");
+        System.out.println(" Relational Operators "); // it returns in Boolean
+        System.out.println("|-----------------------------|");
+        System.out.println( 1 < 2 );
+        System.out.println( 1 > 2 );
+        System.out.println( 1 != 2 );
     }
 }
